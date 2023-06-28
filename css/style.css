@@ -426,7 +426,17 @@ body {
   padding: 1.6rem;
 }
 
+.gallery-item {
+  overflow: hidden;
+}
+
 .gallery-img {
   display: block;
   width: 100%;
+
+  transition: all 0.4s;
+}
+
+.gallery-img:hover {
+  transform: scale(1.1);
 }
