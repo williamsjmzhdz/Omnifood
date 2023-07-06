@@ -6,6 +6,19 @@
     <!-- Always include this line of code!!! -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <!-- Website description -->
+    <meta
+      name="desctiption"
+      content="Omnifood is an AI-Powered food suscription that will make you eat 
+      healthy again, 365 days per year. Is tailored to your personal tastes and 
+      nutritional needs."
+    />
+
+    <!-- Favicons -->
+    <link rel="icon" href="./img/favicon.png" />
+    <link rel="apple-touch-icon" href=".img/apple-touch-icon.png" />
+    <link rel="manifest" href="manifest.webmanifest" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -35,9 +48,9 @@
 
     <script defer src="./js/script.js"></script>
 
-    <title>Omnifood</title>
+    <title>Omnifood &mdash; Never cook again!</title>
   </head>
-  <body>
+  <body class="">
     <header class="header">
       <a href="#">
         <img src="img/omnifood-logo.png" alt="Omnifood logo" class="logo" />
@@ -99,11 +112,15 @@
             </div>
           </div>
           <div class="hero-image-box">
-            <img
-              src="img/hero.png"
-              class="hero-img"
-              alt="Woman enjoying food, meals in storage container, and food bowls on a table."
-            />
+            <picture>
+              <source srcset="img/hero.webp" type="image/webp" />
+              <source srcset="img/hero-min.png" type="image/png" />
+              <img
+                src="img/hero-min.png"
+                class="hero-img"
+                alt="Woman enjoying food, meals in storage container, and food bowls on a table."
+              />
+            </picture>
           </div>
         </div>
       </section>
