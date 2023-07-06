@@ -322,10 +322,10 @@ Instead, 1rem = 1em = 16px */
 }
 
 /* *********************** */
-/* BELOW 528px (phones) */
+/* BELOW 332px (phones) */
 /* *********************** */
 
-@media (max-width: 33em) {
+@media (max-width: 21em) {
   .btn,
   .btn:link,
   .btn:visited {
