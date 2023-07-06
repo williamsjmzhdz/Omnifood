@@ -331,6 +331,10 @@ Instead, 1rem = 1em = 16px */
   .btn:visited {
     font-size: 2rem;
   }
+
+  .logos img {
+    height: 1.2rem;
+  }
 }
 
 /* *********************** */
