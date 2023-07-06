@@ -322,6 +322,18 @@ Instead, 1rem = 1em = 16px */
 }
 
 /* *********************** */
+/* BELOW 528px (phones) */
+/* *********************** */
+
+@media (max-width: 33em) {
+  .btn,
+  .btn:link,
+  .btn:visited {
+    font-size: 2rem;
+  }
+}
+
+/* *********************** */
 /* Fixing Safari flexbox gap problem with margins */
 /* *********************** */
 
