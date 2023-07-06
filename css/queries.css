@@ -238,9 +238,9 @@ Instead, 1rem = 1em = 16px */
 
 @media (max-width: 33em) {
   /* 6px / 16px = 0.375 * 100% = 37.5% */
-  /* html {
+  html {
     font-size: 37.5%;
-  } */
+  }
 
   .grid--2-cols,
   .grid--3-cols,
