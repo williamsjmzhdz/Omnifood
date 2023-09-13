@@ -22,7 +22,7 @@ Este proyecto se construyó principalmente usando HTML, CSS y JavaScript. Demues
 
 ## Configuración e Instalación
 
-Dado que es un sitio web estático, no se necesita una instalación específica. Puedes clonar el repositorio en tu máquina local usando el siguiente comando: ``git clone https://github.com/williamsjmzhdz/Omnifood.git``
+Dado que es un sitio web estático, no se necesita una instalación específica. Puedes clonar el repositorio en tu máquina local usando el siguiente comando: ```git clone https://github.com/williamsjmzhdz/Omnifood.git```
 
 Después de clonar, simplemente abre el archivo `index.html` en tu navegador preferido para ver el sitio web.
 
